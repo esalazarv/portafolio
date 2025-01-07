@@ -1,10 +1,7 @@
 import Link from "next/link";
+import { PropsWithChildren } from "react";
 
-export default function LandingLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function LandingLayout({ children }: PropsWithChildren) {
   return (
     <main className="min-h-screen">
       <nav className="fixed w-full top-0 z-50 backdrop-blur-sm border-b border-border/40 bg-background/95">
