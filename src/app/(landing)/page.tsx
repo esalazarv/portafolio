@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <section className="h-screen flex items-center justify-center">
-        <div className="container mx-auto max-w-[980px] flex flex-col items-center text-center gap-8 px-4">
+        <div className="container mx-auto max-w-[1024px] flex flex-col items-center text-center gap-8 px-4">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
             Full Stack Developer
             <br />
@@ -34,7 +34,7 @@ export default function Home() {
       </section>
 
       <section id="about" className="w-full py-24">
-        <div className="container mx-auto max-w-[980px] px-4">
+        <div className="container mx-auto max-w-[1024px] px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
             <div className="space-y-6">
               <div className="space-y-2">
@@ -84,7 +84,7 @@ export default function Home() {
       </section>
 
       <section id="skills" className="w-full py-24">
-        <div className="container mx-auto max-w-[980px] px-4">
+        <div className="container mx-auto max-w-[1024px] px-4">
           <div className="space-y-12">
             <div className="space-y-4 text-center">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -134,7 +134,7 @@ export default function Home() {
       </section>
 
       <section id="projects" className="w-full py-24">
-        <div className="container mx-auto max-w-[980px] px-4">
+        <div className="container mx-auto max-w-[1024px] px-4">
           <div className="space-y-12">
             <div className="space-y-4 text-center">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -202,7 +202,7 @@ export default function Home() {
       </section>
 
       <section id="contact" className="w-full py-24">
-        <div className="container mx-auto max-w-[980px] px-4">
+        <div className="container mx-auto max-w-[1024px] px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <div className="space-y-2">
