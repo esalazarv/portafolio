@@ -1,6 +1,7 @@
 import Link from "next/link";
 import EmployersCarousel from "@/components/employers-carousel";
 import ScrollIndicator from "@/components/scroll-indicator";
+import SkillsChart from "@/components/skills-chart";
 
 export default function Home() {
   return (
@@ -98,38 +99,43 @@ export default function Home() {
                 modern web applications
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="space-y-4 p-6 rounded-lg border bg-card">
-                <h3 className="text-xl font-bold text-primary">Frontend</h3>
-                <ul className="space-y-2 text-muted-foreground">
-                  <li>React & Next.js</li>
-                  <li>TypeScript</li>
-                  <li>Tailwind CSS</li>
-                  <li>HTML5 & CSS3</li>
-                  <li>Redux & Context API</li>
-                </ul>
+            <div className="flex flex-col gap-12">
+              <div className="flex justify-center">
+                <SkillsChart />
               </div>
-              <div className="space-y-4 p-6 rounded-lg border bg-card">
-                <h3 className="text-xl font-bold text-primary">Backend</h3>
-                <ul className="space-y-2 text-muted-foreground">
-                  <li>Node.js & Express</li>
-                  <li>Python & Django</li>
-                  <li>RESTful APIs</li>
-                  <li>GraphQL</li>
-                  <li>MongoDB & PostgreSQL</li>
-                </ul>
-              </div>
-              <div className="space-y-4 p-6 rounded-lg border bg-card">
-                <h3 className="text-xl font-bold text-primary">
-                  Tools & Others
-                </h3>
-                <ul className="space-y-2 text-muted-foreground">
-                  <li>Git & GitHub</li>
-                  <li>Docker</li>
-                  <li>AWS & Vercel</li>
-                  <li>CI/CD</li>
-                  <li>Agile Methodologies</li>
-                </ul>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="space-y-4 p-6 rounded-lg border bg-card">
+                  <h3 className="text-xl font-bold text-primary">Frontend</h3>
+                  <ul className="space-y-2 text-muted-foreground">
+                    <li>React & Next.js</li>
+                    <li>TypeScript</li>
+                    <li>Tailwind CSS</li>
+                    <li>HTML5 & CSS3</li>
+                    <li>Redux & Context API</li>
+                  </ul>
+                </div>
+                <div className="space-y-4 p-6 rounded-lg border bg-card">
+                  <h3 className="text-xl font-bold text-primary">Backend</h3>
+                  <ul className="space-y-2 text-muted-foreground">
+                    <li>Node.js & Express</li>
+                    <li>Python & Django</li>
+                    <li>RESTful APIs</li>
+                    <li>GraphQL</li>
+                    <li>MongoDB & PostgreSQL</li>
+                  </ul>
+                </div>
+                <div className="space-y-4 p-6 rounded-lg border bg-card">
+                  <h3 className="text-xl font-bold text-primary">
+                    Tools & Others
+                  </h3>
+                  <ul className="space-y-2 text-muted-foreground">
+                    <li>Git & GitHub</li>
+                    <li>Docker</li>
+                    <li>AWS & Vercel</li>
+                    <li>CI/CD</li>
+                    <li>Agile Methodologies</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
