@@ -1,4 +1,5 @@
 import Link from "next/link";
+import EmployersCarousel from "@/components/employers-carousel";
 
 export default function Home() {
   return (
@@ -24,10 +25,10 @@ export default function Home() {
               Get in Touch
             </Link>
             <Link
-              href="#projects"
+              href="#about"
               className="border border-input hover:bg-accent hover:text-accent-foreground px-8 py-4 rounded-md font-medium text-lg transition-colors"
             >
-              View Projects
+              View About
             </Link>
           </div>
         </div>
@@ -66,10 +67,10 @@ export default function Home() {
                   View My Skills
                 </Link>
                 <Link
-                  href="#projects"
+                  href="#employers"
                   className="inline-flex items-center justify-center rounded-md border border-input px-6 py-3 text-sm font-medium hover:bg-accent hover:text-accent-foreground transition-colors"
                 >
-                  Check My Work
+                  Check My Work Experience
                 </Link>
               </div>
             </div>
@@ -133,70 +134,19 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="projects" className="w-full py-24">
+      <section id="employers" className="w-full py-24">
         <div className="container mx-auto max-w-[1024px] px-4">
           <div className="space-y-12">
             <div className="space-y-4 text-center">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                Featured Projects
+                Work Experience
               </h2>
               <p className="text-muted-foreground text-lg max-w-[700px] mx-auto">
-                Here are some of my recent projects that showcase my skills and
-                expertise
+                Companies I've had the pleasure to work with and contribute to
+                their success
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="group relative overflow-hidden rounded-lg border bg-card">
-                <div className="aspect-video overflow-hidden">
-                  <div className="h-full w-full bg-muted flex items-center justify-center">
-                    <span className="text-4xl">🚀</span>
-                  </div>
-                </div>
-                <div className="p-6 space-y-4">
-                  <h3 className="text-xl font-bold">Project One</h3>
-                  <p className="text-muted-foreground">
-                    A modern web application built with Next.js, TypeScript, and
-                    Tailwind CSS.
-                  </p>
-                  <div className="flex gap-2">
-                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">
-                      Next.js
-                    </span>
-                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">
-                      TypeScript
-                    </span>
-                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">
-                      Tailwind
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="group relative overflow-hidden rounded-lg border bg-card">
-                <div className="aspect-video overflow-hidden">
-                  <div className="h-full w-full bg-muted flex items-center justify-center">
-                    <span className="text-4xl">💻</span>
-                  </div>
-                </div>
-                <div className="p-6 space-y-4">
-                  <h3 className="text-xl font-bold">Project Two</h3>
-                  <p className="text-muted-foreground">
-                    A full-stack application with real-time features and
-                    database integration.
-                  </p>
-                  <div className="flex gap-2">
-                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">
-                      React
-                    </span>
-                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">
-                      Node.js
-                    </span>
-                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">
-                      MongoDB
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <EmployersCarousel />
           </div>
         </div>
       </section>
