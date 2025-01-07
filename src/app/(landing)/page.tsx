@@ -1,9 +1,11 @@
 import Link from "next/link";
 import EmployersCarousel from "@/components/employers-carousel";
+import ScrollIndicator from "@/components/scroll-indicator";
 
 export default function Home() {
   return (
     <>
+      <ScrollIndicator />
       <section className="h-screen flex items-center justify-center">
         <div className="container mx-auto max-w-[1024px] flex flex-col items-center text-center gap-8 px-4">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
