@@ -150,8 +150,8 @@ export default function Home() {
                 Work Experience
               </h2>
               <p className="text-muted-foreground text-lg max-w-[700px] mx-auto">
-                Companies I've had the pleasure to work with and contribute to
-                their success
+                Companies I&apos;ve had the pleasure to work with and contribute
+                to their success
               </p>
             </div>
             <EmployersCarousel />
@@ -165,15 +165,15 @@ export default function Home() {
             <div className="space-y-6">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  Let's Connect
+                  Let&apos;s Connect
                 </h2>
                 <p className="text-primary font-medium">
                   Get in touch for opportunities or collaborations
                 </p>
               </div>
               <p className="text-muted-foreground">
-                I'm always interested in hearing about new projects and
-                opportunities. Feel free to reach out if you'd like to work
+                I&apos;m always interested in hearing about new projects and
+                opportunities. Feel free to reach out if you&apos;d like to work
                 together!
               </p>
               <div className="flex gap-4">
