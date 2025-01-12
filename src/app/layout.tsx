@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Link from "next/link";
+import Logo from "@/components/logo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,7 +33,12 @@ export default function RootLayout({
                   className="mr-6 flex items-center space-x-2 text-lg font-bold"
                   href="/"
                 >
-                  <span className="text-primary">Eduardo Salazar</span>
+                  <div className="p-2">
+                    <Logo color="hsl(var(--primary))" size={40} />
+                  </div>
+                  <div>
+                    <span className="text-foreground">esalazarv</span>
+                  </div>
                 </Link>
               </div>
               <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
