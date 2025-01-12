@@ -34,7 +34,7 @@ export default function RootLayout({
                   href="/"
                 >
                   <div className="p-2">
-                    <Logo color="hsl(var(--primary))" size={40} />
+                    <Logo color="hsl(var(--primary))" size={30} />
                   </div>
                   <div>
                     <span className="text-foreground">esalazarv</span>
