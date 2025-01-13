@@ -3,7 +3,7 @@ import Logo from "@/components/logo";
 import {
   GithubLogo,
   LinkedinLogo,
-  TwitterLogo,
+  InstagramLogo,
 } from "@phosphor-icons/react/dist/ssr";
 
 const Footer = () => {
@@ -40,15 +40,15 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/projects"
+                  href="#employers"
                   className="hover:text-white transition-colors"
                 >
-                  Projects
+                  Experience
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/blog"
+                  href="#blog"
                   className="hover:text-white transition-colors"
                 >
                   Blog
@@ -56,7 +56,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/contact"
+                  href="#contact"
                   className="hover:text-white transition-colors"
                 >
                   Contact
@@ -86,12 +86,12 @@ const Footer = () => {
                 <LinkedinLogo size={24} weight="duotone" />
               </a>
               <a
-                href="https://twitter.com/yourusername"
+                href="https://instagram.com/yourusername"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-colors"
               >
-                <TwitterLogo size={24} weight="duotone" />
+                <InstagramLogo size={24} weight="duotone" />
               </a>
             </div>
           </div>
