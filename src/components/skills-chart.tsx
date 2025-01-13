@@ -11,7 +11,7 @@ const skills: Skill[] = [
   { name: "Backend", value: 85 },
   { name: "Frontend", value: 75 },
   { name: "Mobile", value: 60 },
-  { name: "Infrastructure", value: 70 },
+  { name: "Cloud Infra", value: 70 },
   { name: "Management", value: 50 },
 ];
 
