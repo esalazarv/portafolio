@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-4">
               <div className="p-2">
-                <Logo color="hsl(var(--primary))" size={30} />
+                <Logo color="hsl(var(--primary))" size={40} />
               </div>
               <h3 className="text-white text-lg font-semibold">
                 Eduardo Salazar
