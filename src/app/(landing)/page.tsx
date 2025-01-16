@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import EmployersCarousel from "@/components/employers-carousel";
 import ScrollIndicator from "@/components/scroll-indicator";
 import SkillsChart from "@/components/skills-chart";
@@ -79,8 +80,14 @@ export default function Home() {
             </div>
             <div className="relative aspect-square rounded-full border-2 border-primary/20 p-8">
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/20 to-transparent" />
-              <div className="relative h-full rounded-full bg-muted flex items-center justify-center">
-                <span className="text-4xl">👨‍💻</span>
+              <div className="relative h-full rounded-full bg-muted flex items-center justify-center overflow-hidden">
+                <Image
+                  src="/images/frog-portrait.png"
+                  alt="Frog Portrait"
+                  fill
+                  className="object-cover"
+                  priority
+                />
               </div>
             </div>
           </div>
